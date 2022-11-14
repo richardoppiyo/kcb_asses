@@ -5,6 +5,10 @@
 <div id="customers">
   <% @customers.each do |customer| %>
     <%= render customer %>
+    <p><%= customer.fname %></p>
+    <p><%= customer.mname %></p>
+    <p><%= customer.lname %></p>
+    <p><%= customer.idnumber %></p>
     <p>
       <%= link_to "Show this customer", customer %>
     </p>
