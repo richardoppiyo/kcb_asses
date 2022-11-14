@@ -49,6 +49,12 @@ Once you have installed them, you need to use the following command to clone the
 git clone https://github.com/richardoppiyo/kcb_asses.git
 ```
 
+Rub this command on the root directory
+```
+bundle install
+```
+
+bund
 ### Database creation
 
 Next, use this command to create the databases:
